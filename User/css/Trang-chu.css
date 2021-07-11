@@ -1,0 +1,475 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Times New Roman;
+}
+
+#err img {
+    float: left;
+    width: 240px;
+    height: auto;
+    position: relative;
+    left: 34px;
+    top: -24px;
+}
+
+#tong {
+    display: flex;
+    flex-direction: column;
+}
+
+#tren {
+    width: 100%;
+    height: 15vh;
+    background-color: #FFFFE0;
+}
+
+#giua {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+}
+
+#giua1 {
+    width: 100%;
+    height: 35vh;
+    background-color: white;
+    color: black;
+}
+
+
+
+#giua1-1 {
+    position: absolute;
+    width: 10%;
+    height: 35vh;
+    background-color: white;
+    float: left;
+}
+
+#giua1-2 {
+    width: 90%;
+    height: 35vh;
+    float: right;
+    font-size: 18px;
+}
+
+#giua1-2-1 {
+    width: 70%;
+    height: 35vh;
+    float: left;
+}
+
+#giua1-2-2 {
+    width: 30%;
+    height: 35vh;
+    float: right;
+    background-color: white;
+}
+
+#giua1-2-2-1 {
+    width: 1%;
+    height: 35vh;
+    float: left;
+    color: white;
+}
+
+#giua1-2-2-2 {
+    width: 99%;
+    height: 35vh;
+    float: right;
+    background-color: white;
+}
+
+#giua1-2-2-2-1 {
+    width: 1%;
+    height: 35vh;
+    float: left;
+    background-color: white;
+}
+
+#giua1-2-2-2-2 {
+    width: 98%;
+    height: 35vh;
+    float: right;
+}
+
+#duoi {
+    width: 100%;
+    min-height: auto;
+    background-color: white;
+}
+
+#cuoi {
+    position: relative;
+    width: 100%;
+    height: 30vh;
+    background-color: black;
+    color: white;
+}
+
+#err3 {
+    position: relative;
+    top: 35px;
+    float: center;
+    right: 200px;
+}
+
+.menu-item {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 2px solid skyblue;
+    font-size: 18px;
+    top: 10px;
+}
+
+
+
+.menu-item:hover {
+    padding: 5px 20px;
+    border: 2px solid hotpink;
+    font-size: 18px;
+}
+
+#err5 {
+    position: absolute;
+    width: 10%;
+    height: auto;
+    background-color: white;
+    float: left;
+}
+
+#err6 {
+    width: 90%;
+    height: auto;
+    float: right;
+    font-size: 18px;
+}
+
+#err6-1 {
+    width: 70%;
+    height: auto;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#err6-2 {
+    width: 30%;
+    height: auto;
+    float: right;
+    background-color: white;
+
+}
+
+#err6-2-1 {
+    width: 1%;
+    height: auto;
+    float: left;
+    color: white;
+}
+
+#err6-2-2 {
+    width: 99%;
+    height: auto;
+    float: right;
+    background-color: white;
+}
+
+#err6-2-2-1 {
+    width: 1%;
+    height: 85vh;
+    float: left;
+    background-color: white;
+    border-left: 2px solid black;
+}
+
+#err6-2-2-2 {
+    width: 100%;
+    height: auto;
+    float: right;
+}
+
+input[type="text"] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline: none;
+    padding: 10px 7px;
+    height: 42px;
+}
+
+input[type="text"]:focus {
+    width: 300px;
+}
+
+input[type="text"] {
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline: none;
+    padding: 10px 7px;
+    transition: 0.6s ease-in-out;
+}
+
+input[type="text"]:focus {
+    width: 300px;
+    background-color: lightpink;
+    font-size: 18px;
+    font-size: 18px;
+}
+
+#menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+#menu li {
+    list-style: none;
+
+}
+
+#menu a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+}
+
+#menu a:hover {
+    color: #FF9999;
+}
+
+.cha {
+    position: relative;
+}
+
+.cha:hover a {
+    background-color: white;
+}
+
+.con {
+    position: absolute;
+    display: none;
+    font-size: 18px;
+    top: 38px;
+    background-color: white;
+}
+
+.con li {
+    min-width: 5em;
+}
+
+.cha:hover .con {
+    display: block;
+}
+
+button {
+    position: relative;
+    height: 45px;
+    width: 45px;
+    border: 2px solid skyblue;
+    border-radius: 100px;
+}
+
+#dang-nhap {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 2px solid skyblue;
+    font-size: 18px;
+    float: right;
+    right: 30px;
+    border-radius: 10px;
+}
+
+#dang-nhap:hover {
+    padding: 5px 20px;
+    border: 2px solid hotpink;
+    color: #FF9999;
+}
+
+#nguoi-tim-kiem {
+    position: relative;
+    top: 8px;
+}
+
+#muc-luc1 {
+    position: relative;
+    z-index: 99;
+}
+
+#chu-tenBaiViet a {
+    position: relative;
+    text-decoration: none;
+    text-align: justify;
+    top: -30px;
+    font-size: 15px;
+}
+
+#chu-tenBaiViet a:hover {
+    color: #FF0099;
+}
+
+#anhhanoi {
+    position: relative;
+    right: 260px;
+    top: 20px;
+}
+
+.bai_viet a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #836FFF;
+}
+
+.bai_viet a:hover {
+    color: #FF0099;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+#bai_viet_bao_chon {
+    width: 50%;
+    margin-top: 29px;
+}
+#bai_viet_bao_chon hover {
+    width: 90%;
+    object-fit: cover;
+    height: 200px;
+}
+#bai_viet_bao_chon a {
+    text-decoration: none;
+    /* color:  #836FFF; */
+    font-size: 18px;
+}
+#bai_viet_bao_chon a:hover {
+    text-decoration: underline;
+    color: #FF0099;
+}
+.img {
+    width: 90%;
+    object-fit: cover;
+    height: 240px;
+}
+
+#dia-diem {
+    margin-top: 140px;
+}
+
+.lienhe {
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+#chu-cuoi {
+    position: relative;
+    top: 10px;
+    color: #836FFF;
+}
+
+#chu-cuoi:hover {
+    color: #D2691E;
+}
+#toi {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+#menu-toi ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+#menu-toi li {
+    list-style: none;
+
+}
+
+#menu-toi a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+}
+
+#menu-toi a:hover {
+    color: #FF9999;
+}
+
+.cha-toi {
+    position: relative;
+    left: -20px;
+    top: -13px;
+}
+
+.cha-toi:hover a {
+    background-color: white;
+}
+
+.con-toi {
+    position: absolute;
+    display: none;
+    font-size: 18px;
+    top: 28px;
+    background-color: white;
+    border-color: 2px solid skyblue;
+    padding: 5px 20px;
+}
+
+.con-toi li {
+    min-width: 5em;
+}
+
+.cha-toi:hover .con-toi {
+    display: block;
+}
+#dang-xuat {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 2px solid skyblue;
+    font-size: 18px;
+}
+
+#dang-xuat:hover {
+    padding: 5px 20px;
+    border: 2px solid hotpink;
+    font-size: 18px;
+}
+#cuoi-trong{
+    height: 30vh;
+    min-width: 100%;
+    background-color: black;
+    z-index: 3;
+}
+#tren-giua{
+    background-color: #FFFFE0;
+}
+#cuoi-cung{
+    position: relative;
+    top: 5px;
+}
+.quanli{
+    float: right;
+    position: relative;
+    top: -50px;
+    font-size: 16px;
+}

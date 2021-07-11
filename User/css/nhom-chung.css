@@ -1,0 +1,253 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Times New Roman;
+}
+
+#err img {
+    float: left;
+    width: 240px;
+    height: auto;
+    position: relative;
+    left: 34px;
+    top: -24px;
+}
+
+#tong {
+    display: flex;
+    flex-direction: column;
+}
+
+#tren {
+    width: 100%;
+    height: 15vh;
+    background-color: #FFFFE0;
+}
+
+#err3 {
+    position: relative;
+    top: 35px;
+    float: center;
+    right: 200px;
+}
+
+input[type="text"] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline: none;
+    padding: 10px 7px;
+    height: 42px;
+}
+
+input[type="text"]:focus {
+    width: 300px;
+}
+
+input[type="text"] {
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline: none;
+    padding: 10px 7px;
+    transition: 0.6s ease-in-out;
+}
+
+input[type="text"]:focus {
+    width: 300px;
+    background-color: lightpink;
+    font-size: 18px;
+    font-size: 18px;
+}
+
+#dang-nhap {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 2px solid skyblue;
+    font-size: 18px;
+    float: right;
+    right: 30px;
+    border-radius: 10px;
+}
+
+#dang-nhap:hover {
+    padding: 5px 20px;
+    border: 2px solid hotpink;
+}
+
+#err3 button {
+    position: relative;
+    height: 45px;
+    width: 45px;
+    border: 2px solid skyblue;
+    border-radius: 100px;
+}
+
+#giua {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+}
+
+#duoi {
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+
+.menu-item {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 2px solid skyblue;
+    font-size: 18px;
+    top: 10px;
+}
+
+.menu-item:hover {
+    padding: 5px 20px;
+    border: 2px solid hotpink;
+    font-size: 18px;
+}
+
+#duoi1 {
+    position: relative;
+    float: left;
+    height: auto;
+    width: 5%;
+    background-color: white;
+}
+
+#duoi2 {
+    position: relative;
+    float: right;
+    height: auto;
+    width: 87%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+}
+
+#menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+#menu li {
+    list-style: none;
+
+}
+
+#menu a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+}
+
+#menu a:hover {
+    color: #FF9999;
+}
+
+.cha {
+    position: relative;
+}
+
+.cha:hover a {
+    background-color: white;
+}
+
+.con {
+    position: absolute;
+    display: none;
+    font-size: 18px;
+    top: 38px;
+    background-color: white;
+}
+
+.con li {
+    min-width: 5em;
+}
+
+.cha:hover .con {
+    display: block;
+}
+
+.error {
+    color: red;
+}
+
+#bang {
+    position: relative;
+    top: 30px;
+    right: -20px;
+    color: black;
+    font-size: 18px;
+}
+
+#chung {
+    position: relative;
+    top: -12px;
+}
+
+
+#anh:hover {
+    width: 120px;
+    height: auto;
+}
+
+#con1{
+    width: 30%;
+    margin-top: 26px;
+}
+.img {
+    width: 92%;
+    object-fit: cover;
+    height: 240px;
+}
+#con1 a{
+    text-decoration: none;
+    color: #836FFF
+}
+#con1 a:hover{
+    text-decoration: underline;
+    color: #FF0099;
+}
+#cuoi {
+    position: relative;
+    width: 100%;
+    height: 30vh;
+    background-color: black;
+    color: white;
+}
+
+#chu-cuoi {
+    position: relative;
+    top: 25px;
+    color: #836FFF;
+}
+
+#chu-cuoi:hover {
+    color: #D2691E;
+}
+
+.lienhe {
+    margin-left: 10%;
+    margin-top: 4%;
+}
+#tren-giua{
+    background-color: #FFFFE0;
+}

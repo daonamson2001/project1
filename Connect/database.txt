@@ -1,0 +1,51 @@
+create database hanoi_view
+
+create table quyen(
+	maQuyen int AUTO_INCREMENT primary key,
+    	tenQuyen varchar(100)
+)
+
+create table nguoi_dung(
+	maUser int AUTO_INCREMENT primary key,
+    	tenUser varchar(30),
+    	userName varchar(20),
+    	passWord varchar(20),
+	anhNguoiDung varchar(255)
+)
+
+create table khu_vuc(
+	maKhuVuc int AUTO_INCREMENT primary key,
+    	tenKhuVuc varchar(50)
+)
+
+create table admin(
+	maAdmin int AUTO_INCREMENT primary key,
+    	tenAdmin varchar(20),
+    	userAdmin varchar(20),
+    	passAdmin varchar(20),
+    	maQuyen int,
+	block tinyint,
+	foreign key (maQuyen) references quyen(maQuyen)
+)
+
+create table bai_viet(
+	maBaiViet int AUTO_INCREMENT primary key,
+    	tenBaiViet varchar(150),
+    	maAdmin int,
+   	foreign key (maAdmin) references admin(maAdmin),
+   	noiDung text,
+   	anhBia varchar(255),
+    	thoiGianViet datetime,
+   	maKhuVuc int,
+   	foreign key (maKhuVuc) references khu_vuc(maKhuVuc)
+)
+
+create table binh_luan(
+	maBinhLuan int AUTO_INCREMENT primary key,
+    	thoiGianBinhLuan datetime,
+    	binhLuan text,
+    	maUser int,
+   	foreign key (maUser) references nguoi_dung(maUser),
+	maBaiViet int,
+    	foreign key (maBaiViet) references bai_viet(maBaiViet)
+)
